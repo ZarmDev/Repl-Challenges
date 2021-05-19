@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i p {
+  margin: 1vw;
+  text-decoration: underline;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+i p:hover {
+  cursor: pointer;
+}
+i p:nth-child(2) {
+  color: blue;
+}
+i p:hover {
+  color: rgb(200, 200, 255);
+}
+footer {
+  margin-top: 30vw;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+footer button {
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(128, 128, 128, 0.26);
+  border: solid rgb(231, 231, 231) 2px;
+}
+footer button:hover {
+  border: solid rgb(180, 180, 180) 2px;
+}
